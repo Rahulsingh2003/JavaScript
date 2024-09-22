@@ -102,3 +102,9 @@ console.log(Instructor);
 // }                          //in react
 
 // navbar(company = "Rahul")
+
+// {
+//     "name": "Rahul",
+//     "course": "Js",    json
+//     "price": "free",
+// }
