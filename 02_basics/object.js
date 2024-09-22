@@ -55,7 +55,7 @@ const regularUser = {
   },
 };
 
-console.log(regularUser.fullname.userfullname.firstname);
+// console.log(regularUser.fullname.userfullname.firstname);
 
 const obj1 = { 1: "a", 2: "b" };
 const obj2 = { 3: "a", 4: "b" };
@@ -78,10 +78,27 @@ const Users = [
 
 Users[1].email;
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+const course = {
+  courseName: "Js",
+  price: "999",
+  courseInstructor: "Rahul",
+};
+
+// course.courseInstructor
+
+const { courseInstructor: Instructor } = course;
+console.log(Instructor);
+
+// const navbar = ({company}) => {
+
+// }                          //in react
+
+// navbar(company = "Rahul")
