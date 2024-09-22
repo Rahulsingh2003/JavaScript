@@ -27,9 +27,9 @@ if boolean false -> 0
 
 //about boolean
 
-let loggedIn = 1
-let booleanloggedIn = Boolean(loggedIn)
-console.log(booleanloggedIn);
+// let loggedIn = 1
+// let booleanloggedIn = Boolean(loggedIn)
+// console.log(booleanloggedIn);
 
 /*
 1 -> true
@@ -39,7 +39,19 @@ console.log(booleanloggedIn);
 
 */
 
-let someNumber = 22
-let stringNum = String(someNumber)
-console.log(stringNum);
-console.log(typeof(stringNum))
+// let someNumber = 22
+// let stringNum = String(someNumber)
+// console.log(stringNum);
+// console.log(typeof(stringNum))
+
+// ******************* Operations *******************
+
+// let value = 3
+// let ngValue = -value
+// console.log(ngValue);  error
+
+//String operations
+
+//code reads from left to right
+//use () to give priority
+
