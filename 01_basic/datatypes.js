@@ -8,7 +8,7 @@
 // datatypes
 
 let name = "Rahul"  //string
-let age = 21 //int
+let age = 21 //int is number in js
 let isloggedIn = false //bool
 
 // many more 
