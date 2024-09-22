@@ -1,8 +1,8 @@
 let score = "33"
-console.log(typeof(score));
+//console.log(typeof(score));
 
 let valueInNumber = Number(score)
-console.log(typeof(valueInNumber));
+//console.log(typeof(valueInNumber));
 
 
 
@@ -23,3 +23,23 @@ if boolean false -> 0
 
 
 */
+
+
+//about boolean
+
+let loggedIn = 1
+let booleanloggedIn = Boolean(loggedIn)
+console.log(booleanloggedIn);
+
+/*
+1 -> true
+0-> false
+"" -> false
+"rahul" -> true
+
+*/
+
+let someNumber = 22
+let stringNum = String(someNumber)
+console.log(stringNum);
+console.log(typeof(stringNum))
